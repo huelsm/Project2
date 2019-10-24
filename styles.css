@@ -1,12 +1,10 @@
-.topnav 
-{
+.topnav {
 	position: relative;
 	background-color: yellow;
 	overflow: hidden;
 }
 
-topnav a 
-{
+topnav a {
 	float: left;
 	color: red;
 	text-align: center;
@@ -15,30 +13,26 @@ topnav a
 	font-size: 20px;
 }
 
-topnav a:hover
-{
+topnav a:hover {
 	background-color: blue;
 	color: black;
 }
 
-topnav-centered
-{
+topnav-centered {
 	float: none;
 	position: absolute;
 	top: 50%;
 	left: 50%
 }
 
-p
-{
+p {
 	border: 1px black;
 	position: relative;
 	left: 50px;
 	background-color: yellow;
 }
 
-h1
-{
+h1 {
 	color: black;
 	font-family: "Times New Roman",Times, serif;
 	font-size: 250%; 
@@ -48,28 +42,24 @@ h1
 }
 
 
-h2
-{
+h2 {
 	color: black;
 	font-family: Georgia;
 	font-size: 300%;
 }
 
-ul
-{
+ul {
 	list-style-type: upper-roman;
 	background: lightblue;
 	padding: 15px;
 }
 
-@font-face
-{
+@font-face {
 	font-family:geostar;
 	src: url(geosstar-regular-webfont.woff);
 }
 
-h3
-{
+h3 {
 	font-family: geostar;
 	font-size: 300%;
 	padding: 15px;
